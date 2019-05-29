@@ -1,0 +1,6 @@
+{:paths ["src/clj" "resources"]
+
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}}
+
+ :aliases {:uberjar {:extra-deps {uberdeps {:mvn/version "0.1.2"}}
+                     :main-opts ["-m" "uberdeps.uberjar"]}}}
